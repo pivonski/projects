@@ -1,0 +1,134 @@
+/*              FONTS
+font-family: 'Montserrat', sans-serif;
+font-family: 'Teko', sans-serif;
+*/
+
+* {
+    margin=0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 40vh;
+    background-image: url(dodge-charger-1858599_1280.jpg);
+    background-size: cover;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    line-height: 40vh;
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+nav a {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: "Teko", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+nav a.reservation {
+    font-size: 2.2rem;
+    border: 2px solid grey;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
+nav a.reservation:hover {
+    background-color: royalblue;
+    color: #eee;
+    border-color: royalblue;
+    transition: .3s;
+}
+
+nav {
+    margin: 30px auto;
+    text-align: right;
+}
+
+nav a:hover {
+    border-bottom: solid 2px grey;
+    color: black;
+}
+
+/*      MAIN      */
+main {
+    max-width: 1440px;
+    margin: 5vh auto;
+    font-size: 0;
+
+}
+
+main p.describtion {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0 30px 50px 30px;
+    line-height: 180%;
+
+}
+
+main section.features {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+main div.feature {
+    display: inline-block;
+    width: 33.333%;
+}
+
+main div.image {
+    height: 200px;
+    background-color: rosybrown;
+    margin: 20px 30px;
+}
+
+img {
+    height: 20rem;
+    width: 41rem;
+    overflow: hidden;
+
+}
+
+img:hover {
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+    transform: scale(1.05);
+}
+
+main h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #222;
+}
+
+main div.image:hover {
+    background-color: darkseagreen;
+}
+
+/*      FOOTER    */
+
+footer {
+    background-color: #000;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+    margin-bottom: 0px;
+
+
+}
